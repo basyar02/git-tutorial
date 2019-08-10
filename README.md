@@ -18,32 +18,38 @@ git clone git@github.com:basyar02/git-tutorial.git
 git checkout -b <branch_name>
 ```
 
-2- To push branch :
+
+2- To fetch latest remote state/changes :
+```
+git fetch origin
+```
+
+3- To push branch :
 ```
 git push -u origin <branch_name>
 ```
 
-3- To pull branch :
+4- To pull branch :
 ```
 git pull -r origin <branch_name>
 ```
 
-4- To rebase your branch with master branch :
+5- To rebase your branch with master branch :
 ```
 git rebase origin master
 ```
 
-5- Check changes locally
+6- Check changes locally
 ```
 git status
 ```
 
-6- Add changes to the branch locally (need to be done before commit):
+7- Add changes to the branch locally (need to be done before commit):
 ```
 git add .
 ```
 
-7- Commit your changes to the current branch (with message):
+8- Commit your changes to the current branch (with message):
 ```
 git commit -m "<any message"
 ```
